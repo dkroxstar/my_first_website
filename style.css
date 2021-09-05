@@ -10,6 +10,15 @@
         color: #ebe4e4;
     }
 
+    div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 9999;
+        filter: invert(1);
+        padding: 0px 2.5px 2.5px 0px;
+    }
+
     button{
         border: none;
         cursor: pointer;
@@ -96,7 +105,7 @@
     .button__secondary{
         position: relative;
         top: -70px;
-        left: 10px;
+        left: 15px;
         margin-top: 20px;
         padding: 0.5rem 1rem;
         opacity: 0.8;
@@ -423,13 +432,14 @@
 
         .hero__text{
             font-size: 35px;
+            margin-top: 100px;
             padding: 20px 0px 0px 30px;
             opacity: 0.8;
         }
 
         .button__secondary{
             padding: 1rem 2rem;
-            top: -475px;
+            top: -350px;
             left: 40px;
         }
 
