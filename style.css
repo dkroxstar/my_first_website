@@ -393,6 +393,7 @@
     
     input[type=text]:focus {
         border: 3px solid rgb(128, 126, 126);
+        color: white;
     }  
 
     .details__text{
