@@ -70,8 +70,23 @@
     }
 
     .brand__logo{
+        position: relative;
         width: 70px;
         height: 70px;
+    }
+
+    .brand__logo:hover{
+        opacity: 0;
+    }
+
+    .smiley{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        filter: invert(1);
+        top: 5px;
+        left: 5px;
+        z-index: -1;
     }
 
     .hero__container{
@@ -430,6 +445,10 @@
 	    .button__primary{
 	    	padding: 1rem 2rem;
     	}
+
+        .smiley{
+            left: 50px;
+        }
 
         .hero__text{
             font-size: 35px;
